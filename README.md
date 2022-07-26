@@ -16,7 +16,7 @@ Used to interface with the physical robot. This should only handle moving the mo
 #### Commands:
 Used to handle actual logic.
 
-Within the constructor: use `addRequirements(subsystem1, subsystem2)` if you pass a subsystem as a parameter to the Command (necessary to interact with subsystems). <--- VERY IMPORTANT
+Within the constructor: use `addRequirements(subsystem1, subsystem2)` if you pass a subsystem as a parameter to the Command (necessary to interact with subsystems). Can be any amount of subsystems passed in. <--- VERY IMPORTANT
 
 `public void initialize()` -- Is run when the command is scheduled.
 
